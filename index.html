@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./estilos.css">
+    <!-- Remixicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">
+            <i class="ri-cup-fill"></i> Coffee Shop
+        </a>
+    </header>
+
+    <!-- Main --> 
+    <main>
+        <!-- Lista de productos -->
+        <section class="cards">
+            
+        </section>
+        
+        <!-- Carrito -->
+        <section class="cart-list">
+            <h2>Tu carrito (0)</h2>
+            <div class="cart-list__items">
+                <div class="items__img">
+                    <img src="./assets/images/coffee.png" alt="Coffee">
+                </div>
+                <p>Tus bebidas aparecerán aquí</p>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="overlay" id="overlay">
+            <div class="modal-pedido" id="modal-pedido">
+                <i class="ri-checkbox-circle-line"></i>
+                <h2>Pedido Realizado</h2>
+                <p>Esperamos que disfrutes tu bebida!</p>
+                <div class="pedido__detalle">
+
+                </div>
+                <button class="btn" id="btn-close">Realizar Nuevo Pedido</button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
